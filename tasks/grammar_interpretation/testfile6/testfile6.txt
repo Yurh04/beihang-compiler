@@ -1,0 +1,14 @@
+void hello(){printf("hi\n"); return;}
+int add(int a,int b){return a+b;}
+int main(){
+  printf("22379107\n");
+  hello();
+  int a=7,b=4;
+  printf("%d\n",add(a,b));
+  printf("%d\n",a-b);
+  printf("%d\n",a%b);
+  printf("%d\n",(a>b));
+  printf("%d\n",(a==b));
+  printf("%d\n",(a!=b)&&(b>0));
+  return 0;
+}

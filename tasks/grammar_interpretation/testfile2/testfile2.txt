@@ -1,0 +1,19 @@
+int sum(int n,int arr[]){
+  int s=0,i=0;
+  while(i<n){s=s+arr[i];i=i+1;}
+  return s;
+}
+int main(){
+  printf("22379107\n");
+  int a[3]={1,2,3};
+  printf("%d\n",sum(3,a));
+  printf("%d\n",a[0]+a[2]);
+  a[1]=a[1]*2;
+  printf("%d\n",a[1]);
+  printf("%d\n",(a[1]>a[0]));
+  printf("%d\n",(a[0]==1));
+  printf("%d\n",sum(2,a));
+  printf("%d\n",!0);
+  printf("%d\n",-(a[2]));
+  return 0;
+}
