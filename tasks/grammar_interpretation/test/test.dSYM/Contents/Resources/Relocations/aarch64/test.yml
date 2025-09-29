@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/yurunhao/软件工程/大三上/编译/实验/buaaCompiler/tasks/grammar_interpretation/test/test"
+relocations:     []
+...
