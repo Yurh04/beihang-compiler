@@ -1,0 +1,66 @@
+# 编译产物
+*.o
+*.out
+a.out
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.lib
+*.a
+
+# 中间文件
+*.i
+*.s
+*.bc
+*.ll
+
+# IDE配置文件
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 归档文件
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+归档/
+
+# 测试相关
+coverage/
+.coverage
+.pytest_cache/
+
+# Python相关（如果有）
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
