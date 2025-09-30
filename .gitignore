@@ -8,6 +8,7 @@ a.out
 *.pdb
 *.lib
 *.a
+*.class
 
 # 中间文件
 *.i
