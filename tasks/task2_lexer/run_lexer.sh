@@ -39,7 +39,7 @@ compile() {
     
     # 编译源代码
     cd "$ROOT_DIR"
-    javac -d "$BIN_DIR" "$SRC_DIR/frontend/Lexer.java" "$SRC_DIR/frontend/Token.java" "$SRC_DIR/frontend/TokenType.java" "$SRC_DIR/Compiler.java"
+    javac -d "$BIN_DIR" "$SRC_DIR/frontend/lexer/Lexer.java" "$SRC_DIR/frontend/lexer/Token.java" "$SRC_DIR/frontend/lexer/TokenType.java" "$SRC_DIR/Compiler.java"
     
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}编译成功！${NC}"
@@ -68,11 +68,11 @@ run() {
     mv "$temp_file" "$SRC_DIR/Compiler.java"
     
     # 重新编译以应用更改
-    javac -d "$BIN_DIR" "$SRC_DIR/frontend/Lexer.java" "$SRC_DIR/frontend/Token.java" "$SRC_DIR/frontend/TokenType.java" "$SRC_DIR/Compiler.java"
+    javac -d "$BIN_DIR" "$SRC_DIR/frontend/lexer/Lexer.java" "$SRC_DIR/frontend/lexer/Token.java" "$SRC_DIR/frontend/lexer/TokenType.java" "$SRC_DIR/Compiler.java"
     
     # 运行程序
     cd "$ROOT_DIR"
-    java -cp "$BIN_DIR" src.Compiler
+    java -cp "$BIN_DIR" tasks.task2_lexer.src.Compiler
     
     # 检查是否生成了输出文件
     if [ -f "lexer.txt" ]; then

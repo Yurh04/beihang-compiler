@@ -1,4 +1,4 @@
-package src.frontend;
+package frontend.lexer;
 
 import java.io.*;
 import java.util.*;

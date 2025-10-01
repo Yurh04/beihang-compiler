@@ -1,6 +1,4 @@
-package src;
-
-import src.frontend.Lexer;
+import frontend.lexer.Lexer;
 import java.io.IOException;
 
 /**
@@ -12,7 +10,7 @@ public class Compiler {
             // 获取词法分析器单例实例
             Lexer lexer = Lexer.getInstance();
             // 读取源文件
-            lexer.readSource("testfile_error.txt");
+            lexer.readSource("testfile.txt");
             // 执行词法分析
             lexer.analyze();
         } catch (IOException e) {

@@ -1,4 +1,4 @@
-package src.frontend;
+package frontend.lexer;
 
 /**
  * Token 类，表示词法分析器识别的单词

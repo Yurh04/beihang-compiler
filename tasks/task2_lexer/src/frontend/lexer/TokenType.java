@@ -1,4 +1,4 @@
-package src.frontend;
+package frontend.lexer;
 
 /**
  * TokenType 枚举类，定义所有单词的类别码
